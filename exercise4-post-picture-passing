@@ -1,0 +1,9 @@
+============================= test session starts ==============================
+collecting ... collected 11 items / 9 deselected / 2 selected
+
+tests/test_api.py::test_post_picture {'id': 200, 'pic_url': 'http://dummyimage.com/230x100.png/dddddd/000000', 'event_country': 'United States', 'event_state': 'California', 'event_city': 'Fremont', 'event_date': '11/2/2030'}
+PASSED
+tests/test_api.py::test_post_picture_duplicate {'id': 200, 'pic_url': 'http://dummyimage.com/230x100.png/dddddd/000000', 'event_country': 'United States', 'event_state': 'California', 'event_city': 'Fremont', 'event_date': '11/2/2030'}
+PASSED
+
+======================= 2 passed, 9 deselected in 0.06s ========================
